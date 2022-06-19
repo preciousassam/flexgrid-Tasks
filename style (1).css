@@ -1,0 +1,76 @@
+body{
+  background-color: #e4e2e2
+  }
+
+.main-content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  font-size: 15px;
+  height: 100vh;
+ width: 1440px;
+font-family: lexend-deca;}
+
+
+.box-1{
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  flex: 1;
+  width: 480px;
+  height: 400px;
+  }
+.box-2{
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  flex: 1;
+  width: 480px;
+  height: 400px;
+}
+.box-3{
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  flex: 1;
+  width: 480px;
+   height: 400px;}
+
+button{
+  border-radius: 2rem;
+  border: 5px;
+  font-size: small;
+  padding: 1em;
+  margin-top: 6em;
+}
+button:hover{
+  cursor: pointer;
+  background-color: transparent;
+}
+.main-grid{
+  display: grid;
+  grid-template-areas: "a a b" " c d d" " c e e";
+  gap: 9px;
+  width: 50%;
+  margin: auto;
+}
+.main-grid div{
+  padding:  40px;
+  text-align: center;
+}
+.one{
+  background-color:#eb2300;
+  grid-area: a;
+}
+.two{
+  background-color: #df9901;
+  grid-area:b;}
+.three{
+  background-color: #118d20;
+  grid-area: c;}
+.four{
+  background-color: #16a1d0;
+  grid-area: d;
+} 
+.five{
+  background-color: #16a1d0;
+grid-area: e;}
